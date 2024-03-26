@@ -1,0 +1,7 @@
+Recursive algorithm
+ - let toh(n) be a function that solves the problem, where n is the number of disks(depth of recursion)
+    - Base case: n==1, bottom of the recursion, just move the disk from start to end
+    - Get a reference to "other" stand. possible method: 6-(from + end)
+    - Move all but the bottom disk from start to other
+    - Move the bottom disk from start to end
+    - Move all but the bottom disk from other to end
